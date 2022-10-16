@@ -6,7 +6,8 @@ OBJS = $(SRCS:.cpp=.o)
 DEPS = Makefile.depend
 
 INCLUDES = -I./include
-CXXFLAGS = -O2 -Wall $(INCLUDES)
+MOD_INCLUDES = -I./include/mod
+CXXFLAGS = -O2 -Wall $(INCLUDES) $(MOD_INCLUDES)
 LDFLAGS = -lm
 
 

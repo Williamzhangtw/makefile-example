@@ -1,4 +1,4 @@
-#include "mod/mod.h"
+#include "mod.h"
 #include <iostream>
 
 void hello(const std::string &msg) {
